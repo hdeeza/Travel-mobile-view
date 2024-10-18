@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --white:background: #FFFFFF;
+    --neutral:border: 1px solid #262626;
+	--neutralbackground: #595959;
+    --neutralbackground: #737373;
+    --blackbackground: #000000;
+    --light-greenborder: 0.7px solid #25A59E;
+    --light-bluebackground: #44D5CD;
+    --orangebackground: #EE8F39;
+    --blurrybackground: #44D5CD;
+    --neutralborder: 1px solid #D9D9D9
+}
+body{
+    width: 100%;
+    margin: 10px;
+	height: 100%;
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+}
+.nav-container {
+    display: flex;
+	flex-direction: column;
+	width: Fixed(375px);
+	height: Fixed(60px);
+	justify-content: space-between;
+	padding: 16px 20px 16px 20px;
+}
+.nav-bar {
+	display: flex;
+	justify-content: space-between;
+	align-items: left;
+	font-family: "Glida Display";
+	color: #25A59E;
+	font-size: 16px;
+	line-height: 18.83px;
+	font-weight: 400;
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+.logo{
+	width: 52px;
+	height: 19px;
+	border: 0.7px;
+	margin-right: 340px;
+	margin-left: 10px;
+}
+.frame{
+	width: 24px;
+	height: 24px;
+	margin-left: -170px;
+	margin-right:20px ;
+}
+
+.header-text {
+	font-family: "Gilda Display";
+	font-size: 52px;
+	font-weight: 400;
+	text-align: center;
+    line-height: 61.2px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+span{
+	color: #25a59e;
+}
+.travel-selfies {
+	position: relative;
+	width: 80%;
+	height: 655px;
+}
+.travel-selfies img {
+	max-width: 365px;
+}
+.blurry {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width:365px;
+    margin-top: -100px;
+	margin-left: 50px;
+}
+.elipse {
+	position: absolute;
+	left: 0;
+	top: 0;
+    margin-left:40px;	
+	margin-top:31px;
+}
+.selfie {
+	position: absolute;
+    top: 0;
+	left: 0;
+	max-width:365px; 
+	margin-left: 44px;
+	margin-top: -11px;
+}
+.best-destination{
+	max-width: 365px;
+	margin-top: -420px;
+	margin-bottom: 120px;
+	float:left;
+	margin-left: 80px;
+	gap: 28px;
+}
+.destination{
+	width: Fill(335px);
+	height: Hug(164px);
+	gap: 20px;
+}
+.destination h2{
+	font-family: "Glida Display";
+	font-size: 40px;
+	font-weight: 400;
+    color: #262626; 
+	line-height: 52px;
+	margin-left: -10px;
+	width: 335px;
+	height: 104px;
+	border: 0.2px;
+}
+.choose{
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-left: -10px;
+	margin-top: 10px;
+	width: 335px;
+	height: 68px;
+}
+.destination-images {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+.mirrow{
+	margin-left: -15px;
+	border: 1px solid #f2f2f2;
+	padding-left: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	width: Fill(335px);
+	height: Hug(378px);
+	line-height: 50px;
+	gap: 20px;	
+}
+.mirrow h3{
+	font-family: "Urbanist";
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	margin-left: -1px;
+	width: 303px;
+	height: 35px;
+	color: #262626;
+}
+.rotate{
+	transform: rotate(-180deg);
+}
+.location{
+	display: flex;
+	gap: 10px;
+}
+.location p{
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	color: #262626;
+}
+.choose-us{
+	width: Fill(335px);
+	height: Hug(260px);
+	gap: 12px;
+}
+.travel-agent h3 {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	text-align: center;
+	margin: 0.2px;
+	color: #262626;
+}
+.travel-agent p {
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+	color:#595959;
+}
+.best-guide-card {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: Fill(335px);
+	height: Hug(880px);
+	padding: 25px;
+	gap: 20px;	
+}
+.best-guide{
+	width: Fill(335px);
+	height: Hug(257px);
+	padding: 28px 20px 32px 20px;
+	gap: 40px;
+	margin-top: -25px;
+}
+.best-card{
+	border-top: 4px solid #25a59e;
+	width: Fill(295px);
+	height: Hug(134px);
+	gap: 8px;
+	padding: 2px	
+}
+.card-title {
+	font-family: "Gilda Display";
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 40px;
+	text-align: left;
+	margin-bottom: 0;
+	color: #262626;
+	margin-left: 20px;
+}
+.card-body {
+	font-family: "Urbanist";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 20px;
+	color: #737373;
+}
+.card-footer {
+	color: #25a59e;
+	display: flex;
+	justify-content: end;
+	width: Hug(112px);
+	height: Hug(23px);
+	gap: 12px;
+}
+.card-footer p {
+	font-family: "Gilda Display";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	border: 0.2px;
+	margin-left: 10px;
+	text-align: left;
+}
+.card-footer img {
+	margin-left: 10px;
+}
+.best-card-special{
+	width: Fill(295px);
+	height: Hug(134px);
+	gap: 8px;
+	padding: 2px;
+	background-color: #25a59e;	
+	color: #FFFFFF;
+}
+.card-title-special {
+	font-family: "Gilda Display";
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 40px;
+	text-align: left;
+	margin-bottom: 0;
+	margin-left: 20px;
+}
+.card-body-special {
+	font-family: "Urbanist";
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 23px;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.card-footer-special {
+	color: #FFFFFF;
+	display: flex;
+	justify-content: end;
+	width: Hug(112px);
+	height: Hug(23px);
+	gap: 12px;
+}
+.trip-text {
+	width: Fill(335px);
+	height: Hug(212px);
+	gap: 12px;
+	margin-left: 45px;
+	padding: 1em;	
+}
+.trip-header {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	border: 0.2px; 
+	margin-bottom: 0;
+}
+.trip-body {
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #595959;
+}
+.trip-image {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	width: 335.11px;
+	height: 247px;
+}
+.image-shape {
+	position: absolute;
+	margin-bottom: 0;
+	width: 276.03px;
+	height: 121.72px;
+	top: 125.28px;
+	left: 29px;
+	gap: 0px;
+	right: 0;
+	opacity: 50%;
+}
+.memory-image {
+	position: absolute;
+	bottom: 0;
+	width: 335.11px;
+	height: 247px;
+	gap: 0px;
+	opacity: 0px;
+}
+.trip-documentation {
+	width: Hug(375px);
+	height: Hug(400px);
+	gap: 24px;
+}
+.documentation-header {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	text-align: center;
+	width: 335px;
+	height: 180px;
+	border: 0.2px;
+	margin: 0 auto;
+	color: #262626;
+}
+.trip-video {
+	width: 375px;
+	height: 220px;
+}
+footer {
+	width: Fixed(375px);
+	height: Hug(553px);
+	top: 5355px;
+	padding: 40px 40px;
+	gap: 42px;
+}
+.best-offer {
+	padding: 20px 20px;
+	width: Fill(375px);
+	height: Hug(174px);
+	gap: 16px;
+}
+.best-offer-text {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	width: 335px;
+	height: 104px;
+	border: 0.2px;
+	margin: 0;
+	color: #262626;
+}
+button {
+	font-family: "Urbanist";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.6px;
+	align-items: right;
+	background-color: #25a59e;
+	width: 147px;
+	height: 54px;
+	gap: 10px;
+	padding: 16px 32px 16px 32px;
+	color: #FFFFFF;
+	border: 0;
+}
+hr{
+	border: 1px solid #d9d9d9;
+	width: Fixed(375px);
+}
+.footer-text-icons{
+	width: Fill(375px);
+	height: Hug(149px);
+	padding: 20px 20px;
+	gap: 28px;
+}
+.footer-text {
+	width: Fill(]335px);
+	height: Hug(79px);
+	gap: 12px;
+	margin: 0;
+}
+.footer-text h4 {
+	font-family: "Gilda Display";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18.83px;
+	letter-spacing: 10%;
+	width: 52px;
+	height: 19px;
+	border: 0.7px;
+	text-align: left;
+	color: #25a59e;
+	margin: 0;
+}
+.footer-text p {
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	color: #595959;
+}
+.contact-us {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	padding: 2em;
+	width: Fill(335px);
+	height: Hug(42px);
+}
+.contact-us div {
+	width: Hug(144px);
+	height: Fixed(42px);
+	gap: 12px;
+	align-items: center;
+	border-radius: 100px;
+	background-color: #eafaf9;
+}
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: Fill(375px);
+	height: Hug(24px);
+	padding: 20px 20px;
+	align-self: flex-end;
+}
+a{
+	color: #595959;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
