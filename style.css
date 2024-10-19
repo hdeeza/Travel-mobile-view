@@ -449,3 +449,19 @@ hr{
 	width: Fill(335px);
 	height: Hug(42px);
 }
+.contact-us div {
+	width: Hug(144px);
+	height: Fixed(42px);
+	gap: 12px;
+	align-items: center;
+	border-radius: 100px;
+	background-color: #eafaf9;
+}
+.links {
+	display: flex;
+	justify-content: space-between;
+	width: Fill(375px);
+	height: Hug(24px);
+	padding: 20px 20px;
+	align-self: flex-end;
+}
