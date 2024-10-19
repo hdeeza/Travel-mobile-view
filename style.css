@@ -133,3 +133,21 @@ span{
 	width: 335px;
 	height: 68px;
 }
+.destination-images {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+.mirrow{
+margin-left: -15px;
+border: 1px solid #f2f2f2;
+padding-left: 15px;
+padding-top: 15px;
+padding-right: 15px;
+padding-bottom: 15px;
+width: Fill(335px);
+height: Hug(378px);
+line-height: 50px;
+gap: 20px;	
+}
