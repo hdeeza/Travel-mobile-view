@@ -440,3 +440,12 @@ hr{
 	line-height: 24px;
 	text-align: left;
 	color: #595959;
+}
+.contact-us {
+	display: flex;
+	gap: 30px;
+	justify-content: center;
+	padding: 2em;
+	width: Fill(335px);
+	height: Hug(42px);
+}
