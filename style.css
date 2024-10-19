@@ -99,3 +99,37 @@ span{
 	margin-left: 44px;
 	margin-top: -11px;
 }
+.best-destination{
+	max-width: 365px;
+	margin-top: -420px;
+	margin-bottom: 120px;
+	float:left;
+	margin-left: 80px;
+	gap: 28px;
+}
+.destination{
+	width: Fill(335px);
+	height: Hug(164px);
+	gap: 20px;
+}
+.destination h2{
+	font-family: "Glida Display";
+	font-size: 40px;
+	font-weight: 400;
+    color: #262626; 
+	line-height: 52px;
+	margin-left: -10px;
+	width: 335px;
+	height: 104px;
+	border: 0.2px;
+}
+.choose{
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-left: -10px;
+	margin-top: 10px;
+	width: 335px;
+	height: 68px;
+}
