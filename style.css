@@ -197,3 +197,26 @@ gap: 20px;
 	text-align: center;
 	color:#595959;
 }
+.best-guide-card {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	width: Fill(335px);
+	height: Hug(880px);
+	padding: 25px;
+	gap: 20px;	
+}
+.best-guide{
+	width: Fill(335px);
+	height: Hug(257px);
+	padding: 28px 20px 32px 20px;
+	gap: 40px;
+	margin-top: -25px;
+}
+.best-card{
+	border-top: 4px solid #25a59e;
+	width: Fill(295px);
+	height: Hug(134px);
+	gap: 8px;
+	padding: 2px	
+}
