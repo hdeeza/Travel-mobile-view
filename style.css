@@ -175,3 +175,25 @@ gap: 20px;
 	line-height: 24px;
 	color: #262626;
 }
+.choose-us{
+	width: Fill(335px);
+	height: Hug(260px);
+	gap: 12px;
+}
+.travel-agent h3 {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	text-align: center;
+	margin: 0.2px;
+	color: #262626;
+}
+.travel-agent p {
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: center;
+	color:#595959;
+}
