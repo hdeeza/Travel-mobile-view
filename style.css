@@ -294,3 +294,54 @@ gap: 20px;
 	height: Hug(23px);
 	gap: 12px;
 }
+.trip-text {
+	width: Fill(335px);
+	height: Hug(212px);
+	gap: 12px;
+	margin-left: 45px;
+	padding: 1em;	
+}
+.trip-header {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	border: 0.2px; 
+	margin-bottom: 0;
+}
+.trip-body {
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #595959;
+}
+.trip-image {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	width: 335.11px;
+	height: 247px;
+}
+.image-shape {
+	position: absolute;
+	margin-bottom: 0;
+	width: 276.03px;
+	height: 121.72px;
+	top: 125.28px;
+	left: 29px;
+	gap: 0px;
+	right: 0;
+	opacity: 50%;
+}
+.memory-image {
+	position: absolute;
+	bottom: 0;
+	width: 335.11px;
+	height: 247px;
+	gap: 0px;
+	opacity: 0px;
+}
