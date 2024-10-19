@@ -345,3 +345,98 @@ gap: 20px;
 	gap: 0px;
 	opacity: 0px;
 }
+.trip-documentation {
+	width: Hug(375px);
+	height: Hug(400px);
+	gap: 24px;
+}
+.documentation-header {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	text-align: center;
+	width: 335px;
+	height: 180px;
+	border: 0.2px;
+	margin: 0 auto;
+	color: #262626;
+}
+.trip-video {
+	width: 375px;
+	height: 220px;
+}
+footer {
+	width: Fixed(375px);
+	height: Hug(553px);
+	top: 5355px;
+	padding: 40px 40px;
+	gap: 42px;
+}
+.best-offer {
+	padding: 20px 20px;
+	width: Fill(375px);
+	height: Hug(174px);
+	gap: 16px;
+}
+.best-offer-text {
+	font-family: "Gilda Display";
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 52px;
+	width: 335px;
+	height: 104px;
+	border: 0.2px;
+	margin: 0;
+	color: #262626;
+}
+button {
+	font-family: "Urbanist";
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 21.6px;
+	align-items: right;
+	background-color: #25a59e;
+	width: 147px;
+	height: 54px;
+	gap: 10px;
+	padding: 16px 32px 16px 32px;
+	color: #FFFFFF;
+	border: 0;
+}
+hr{
+	border: 1px solid #d9d9d9;
+	width: Fixed(375px);
+}
+.footer-text-icons{
+	width: Fill(375px);
+	height: Hug(149px);
+	padding: 20px 20px;
+	gap: 28px;
+}
+.footer-text {
+	width: Fill(]335px);
+	height: Hug(79px);
+	gap: 12px;
+	margin: 0;
+}
+.footer-text h4 {
+	font-family: "Gilda Display";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18.83px;
+	letter-spacing: 10%;
+	width: 52px;
+	height: 19px;
+	border: 0.7px;
+	text-align: left;
+	color: #25a59e;
+	margin: 0;
+}
+.footer-text p {
+	font-family: "Urbanist";
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	color: #595959;
