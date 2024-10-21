@@ -97,10 +97,6 @@ Here's a quick outline of the key HTML structure:
 -Flexbox is used throughout for layout management,ensuring items are spaced and aligned as needed.
 -Media queries provide provide responsive design adjustment at various breakpoints.
 ## Media Queries
-The project includes media queriess to adjust the layout for various screen sizes:
--**1244px and below**:Adjust the font sizes in the hero section.
--**1093px and below**:Reduces font sizes nad adjusts padding for elements in the hero and destination sections.
--**768px and below**:Changes the layout of the bar to be more vertical and adjusts padding for better fit on mobile screens.
 
 ## License
 This project is lincensed under the MIT License-see[LICENSE](license)file for details..
