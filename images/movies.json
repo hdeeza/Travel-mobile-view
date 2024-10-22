@@ -1,0 +1,226 @@
+[
+  {
+    "Title": "Oppenheimer",
+    "Director": "Christopher Nolan",
+    "Writers": ["Christopher Nolan"],
+    "Stars": ["Cillian Murphy", "Emily Blunt", "Matt Damon"],
+    "Awards": ["Nominated for Best Picture", "Best Director", "Best Actor (Cillian Murphy) at the Oscars"],
+    "Genre": ["Biography", "Drama", "History"]
+  },
+  {
+    "Title": "Barbie",
+    "Director": "Greta Gerwig",
+    "Writers": ["Greta Gerwig", "Noah Baumbach"],
+    "Stars": ["Margot Robbie", "Ryan Gosling", "America Ferrera"],
+    "Awards": ["Nominated for Best Original Screenplay at the Oscars"],
+    "Genre": ["Adventure", "Comedy", "Fantasy"]
+  },
+  {
+    "Title": "Killers of the Flower Moon",
+    "Director": "Martin Scorsese",
+    "Writers": ["Eric Roth", "Martin Scorsese"],
+    "Stars": ["Leonardo DiCaprio", "Robert De Niro", "Lily Gladstone"],
+    "Awards": ["Nominated for Best Picture", "Best Director", "Best Actor (Leonardo DiCaprio) at the Oscars"],
+    "Genre": ["Crime", "Drama", "Thriller"]
+  },
+  {
+    "Title": "Dune: Part Two",
+    "Director": "Denis Villeneuve",
+    "Writers": ["Denis Villeneuve", "Jon Spaihts", "Eric Roth"],
+    "Stars": ["Timothée Chalamet", "Zendaya", "Rebecca Ferguson"],
+    "Awards": ["Nominated for Best Visual Effects", "Best Cinematography at the Oscars"],
+    "Genre": ["Adventure", "Drama", "Sci-Fi"]
+  },
+  {
+    "Title": "The Marvels",
+    "Director": "Nia DaCosta",
+    "Writers": ["Nia DaCosta", "Megan McDonald", "Elissa Karasik"],
+    "Stars": ["Brie Larson", "Iman Vellani", "Teyonah Parris"],
+    "Awards": ["Nominated for Best Visual Effects at the Oscars"],
+    "Genre": ["Action", "Adventure", "Sci-Fi"]
+  },
+  {
+    "Title": "John Wick: Chapter 4",
+    "Director": "Chad Stahelski",
+    "Writers": ["Shay Hatten", "Michael Finch"],
+    "Stars": ["Keanu Reeves", "Donnie Yen", "Bill Skarsgård"],
+    "Awards": ["Nominated for Best Stunt Coordination at the Oscars"],
+    "Genre": ["Action", "Crime", "Thriller"]
+  },
+  {
+    "Title": "Spider-Man: Across the Spider-Verse",
+    "Directors": ["Joaquim Dos Santos", "Kemp Powers", "Justin K. Thompson"],
+    "Writers": ["Phil Lord", "Christopher Miller", "Dave Callaham"],
+    "Stars": ["Shameik Moore", "Hailee Steinfeld", "Oscar Isaac"],
+    "Awards": ["Won Best Animated Feature at the Oscars"],
+    "Genre": ["Animation", "Action", "Adventure"]
+  },
+  {
+    "Title": "The Little Mermaid",
+    "Director": "Rob Marshall",
+    "Writers": ["David Magee", "Rob Marshall", "John DeLuca"],
+    "Stars": ["Halle Bailey", "Jonah Hauer-King", "Melissa McCarthy"],
+    "Awards": ["Nominated for Best Original Song at the Oscars"],
+    "Genre": ["Adventure", "Comedy", "Family"]
+  },
+  {
+    "Title": "Mission: Impossible – Dead Reckoning Part One",
+    "Director": "Christopher McQuarrie",
+    "Writers": ["Christopher McQuarrie", "Eric Warren Singer"],
+    "Stars": ["Tom Cruise", "Hayley Atwell", "Ving Rhames"],
+    "Awards": ["Nominated for Best Stunt Coordination at the Oscars"],
+    "Genre": ["Action", "Adventure", "Thriller"]
+  },
+  {
+    "Title": "Guardians of the Galaxy Vol. 3",
+    "Director": "James Gunn",
+    "Writers": ["James Gunn"],
+    "Stars": ["Chris Pratt", "Zoe Saldana", "Dave Bautista"],
+    "Awards": ["Nominated for Best Visual Effects at the Oscars"],
+    "Genre": ["Action", "Adventure", "Comedy"]
+  },
+  {
+    "Title": "Asteroid City",
+    "Director": "Wes Anderson",
+    "Writers": ["Wes Anderson", "Roman Coppola"],
+    "Stars": ["Jason Schwartzman", "Scarlett Johansson", "Tom Hanks"],
+    "Awards": ["Nominated for Best Original Screenplay at the Oscars"],
+    "Genre": ["Comedy", "Drama"]
+  },
+  {
+    "Title": "Poor Things",
+    "Director": "Yorgos Lanthimos",
+    "Writers": ["Yorgos Lanthimos", "Tony McNamara"],
+    "Stars": ["Emma Stone", "Mark Ruffalo", "Willem Dafoe"],
+    "Awards": ["Nominated for Best Actress (Emma Stone) at the Oscars"],
+    "Genre": ["Comedy", "Drama", "Fantasy"]
+  },
+  {
+    "Title": "Priscilla",
+    "Director": "Sofia Coppola",
+    "Writers": ["Sofia Coppola"],
+    "Stars": ["Cailee Spaeny", "Jacob Elordi"],
+    "Awards": ["Nominated for Best Actress (Cailee Spaeny) at the Oscars"],
+    "Genre": ["Biography", "Drama", "Romance"]
+  },
+  {
+    "Title": "The Hunger Games: The Ballad of Songbirds & Snakes",
+    "Director": "Francis Lawrence",
+    "Writers": ["Michael Arndt", "Suzanne Collins"],
+    "Stars": ["Hunter Schafer", "Jason Schwartzman", "Rachel Zegler"],
+    "Awards": ["Nominated for Best Production Design at the Oscars"],
+    "Genre": ["Action", "Adventure", "Sci-Fi"]
+  },
+  {
+    "Title": "A Haunting in Venice",
+    "Director": "Kenneth Branagh",
+    "Writers": ["Michael Green"],
+    "Stars": ["Kenneth Branagh", "Michelle Yeoh", "Jamie Dornan"],
+    "Awards": ["Nominated for Best Adapted Screenplay at the Oscars"],
+    "Genre": ["Crime", "Drama", "Mystery"]
+  },
+  {
+    "Title": "The Flash",
+    "Director": "Andy Muschietti",
+    "Writers": ["John Francis Daley", "Jonathan Goldstein", "Joby Harold"],
+    "Stars": ["Ezra Miller", "Michael Keaton", "Sasha Calle"],
+    "Awards": ["Nominated for Best Visual Effects at the Oscars"],
+    "Genre": ["Action", "Adventure", "Sci-Fi"]
+  },
+  {
+    "Title": "Expend4bles",
+    "Director": "Scott Waugh",
+    "Writers": ["Kurt Wimmer", "Tad Daggerhart"],
+    "Stars": ["Jason Statham", "Sylvester Stallone", "Megan Fox"],
+    "Awards": ["Nominated for Best Action Sequence at the Oscars"],
+    "Genre": ["Action", "Adventure", "Comedy"]
+  },
+  {
+    "Title": "Napoleon",
+    "Director": "Ridley Scott",
+    "Writers": ["David Scarpa"],
+    "Stars": ["Joaquin Phoenix", "Vanessa Kirby"],
+    "Awards": ["Nominated for Best Actor (Joaquin Phoenix) at the Oscars"],
+    "Genre": ["Biography", "Drama", "History"]
+  },
+  {
+    "Title": "Dumb Money",
+    "Director": "Craig Gillespie",
+    "Writers": ["Lauren Schuker Blum", "Rebecca Angelo"],
+    "Stars": ["Paul Dano", "Sebastian Stan", "Shailene Woodley"],
+    "Awards": ["Nominated for Best Ensemble at the Oscars"],
+    "Genre": ["Comedy", "Drama"]
+  },
+  {
+    "Title": "Dream Scenario",
+    "Director": "Kristoffer Borgli",
+    "Writers": ["Kristoffer Borgli"],
+    "Stars": ["Nicolas Cage", "Julianne Nicholson", "Michael Cera"],
+    "Awards": ["Nominated for Best Actor (Nicolas Cage) at the Oscars"],
+    "Genre": ["Comedy", "Drama", "Fantasy"]
+  },
+  {
+    "Title": "Rustin",
+    "Director": "George C. Wolfe",
+    "Writers": ["Dustin Lance Black"],
+    "Stars": ["Colman Domingo", "Chris Rock", "Glynn Turman"],
+    "Awards": ["Nominated for Best Actor (Colman Domingo) at the Oscars"],
+    "Genre": ["Biography", "Drama"]
+  },
+  {
+    "Title": "Love and Death",
+    "Director": "Nicole Holofcener",
+    "Writers": ["Nicole Holofcener"],
+    "Stars": ["Julia Louis-Dreyfus", "Jason Bateman"],
+    "Awards": ["Nominated for Best Screenplay at the Oscars"],
+    "Genre": ["Comedy", "Drama"]
+  },
+  {
+    "Title": "Foe",
+    "Director": "Garth Davis",
+    "Writers": ["Iain Reid"],
+    "Stars": ["Saoirse Ronan", "Paul Mescal"],
+    "Awards": ["Nominated for Best Adapted Screenplay at the Oscars"],
+    "Genre": ["Drama", "Sci-Fi", "Thriller"]
+  },
+  {
+    "Title": "A Man Called Otto",
+    "Director": "Marc Forster",
+    "Writers": ["David Magee"],
+    "Stars": ["Tom Hanks", "Mariana Treviño"],
+    "Awards": ["Nominated for Best Actor (Tom Hanks) at the Oscars"],
+    "Genre": ["Comedy", "Drama"]
+  },
+  {
+    "Title": "The Holdovers",
+    "Director": "Alexander Payne",
+    "Writers": ["David Hemingson"],
+    "Stars": ["Paul Giamatti", "Da'Vine Joy Randolph"],
+    "Awards": ["Nominated for Best Actor (Paul Giamatti) at the Oscars"],
+    "Genre": ["Comedy", "Drama"]
+  },
+  {
+    "Title": "The Killer",
+    "Director": "David Fincher",
+    "Writers": ["Andrew Kevin Walker", "David Fincher"],
+    "Stars": ["Michael Fassbender", "Tilda Swinton", "Charles Parnell"],
+    "Awards": ["Nominated for Best Director (David Fincher)", "Best Editing at the Oscars"],
+    "Genre": ["Action", "Crime", "Thriller"]
+  },
+  {
+    "Title": "Master Gardener",
+    "Director": "Paul Schrader",
+    "Writers": ["Paul Schrader"],
+    "Stars": ["Joel Edgerton", "Sigourney Weaver", "Quintessa Swindell"],
+    "Awards": ["Nominated for Best Screenplay at the Oscars"],
+    "Genre": ["Drama", "Thriller"]
+  },
+  {
+    "Title": "The Night Agent",
+    "Director": "Shawn Ryan",
+    "Writers": ["Shawn Ryan"],
+    "Stars": ["Gabriel Basso", "Luciane Buchanan", "Hong Chau"],
+    "Awards": ["Nominated for Best Action Series at the Golden Globes"],
+    "Genre": ["Action", "Drama", "Thriller"]
+  }
+]
