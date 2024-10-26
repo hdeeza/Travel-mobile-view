@@ -28,7 +28,7 @@ This project is built using HTML and CSS and provides a visually appealing and r
 -A footer with additional links and information.
 
 ## Live-Demo
--Check out the live Demo of the Project:[LiveDemo](https://travel-mobile-view.onrender.com)
+-Check out the live Demo of the Project:[LiveDemo](https://travel-mobile-view-desktop.onrender.com)
 
 ## Technologies Used
 
