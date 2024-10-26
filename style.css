@@ -21,7 +21,7 @@ body{
 	height: 100%;
 	overflow-x: hidden;
 	padding: 0;
-	margin: 0;
+	margin: 0; 
 }
 .nav-container {
     display: flex;
@@ -100,19 +100,19 @@ span{
 	margin-left: 44px;
 	margin-top: -11px;
 }
-.best-destination{
-	max-width: 365px;
+/* .best-destination{
+	max-width: 365px; 
 	margin-top: -420px;
-	margin-bottom: 120px;
-	float:left;
-	margin-left: 80px;
-	gap: 28px;
-}
-.destination{
+	margin-bottom: 120px; 
+	float:left; 
+	 margin-left: 80px;
+	gap: 28px;  
+} */
+ /* .destination{
 	width: Fill(335px);
 	height: Hug(164px);
 	gap: 20px;
-}
+}  */
 .destination h2{
 	font-family: "Glida Display";
 	font-size: 40px;
@@ -134,10 +134,10 @@ span{
 	width: 335px;
 	height: 68px;
 }
-.destination-images {
-	display: flex;
+ /* .destination-images {
+    display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: wrap; 
 	gap: 20px;
 }
 .mirrow{
@@ -149,9 +149,8 @@ padding-right: 15px;
 padding-bottom: 15px;
 width: Fill(335px);
 height: Hug(378px);
-line-height: 50px;
-gap: 20px;	
-}
+line-height: 50px; 	
+} */
 .mirrow h3{
 	font-family: "Urbanist";
 	font-size: 20px;
@@ -198,15 +197,16 @@ gap: 20px;
 	text-align: center;
 	color:#595959;
 }
-.best-guide-card {
-	display: flex;
+ /* .best-guide-card {
+    display: grid;
 	flex-direction: column;
 	flex-wrap: wrap;
 	width: Fill(335px);
 	height: Hug(880px);
 	padding: 25px;
-	gap: 20px;	
-}
+	gap: 20px;	 
+
+}  */
 .best-guide{
 	width: Fill(335px);
 	height: Hug(257px);
@@ -391,6 +391,21 @@ footer {
 	margin: 0;
 	color: #262626;
 }
+.desktop{
+	/* display: flex;
+	flex-direction: column;
+	flex-wrap: wrap; */
+	display: grid;
+	gap: 20px;
+
+}
+.listcard{
+	display: grid;
+	gap: 20px;
+	width: 335px;
+    height: 808px;
+	
+}
 button {
 	font-family: "Urbanist";
 	font-size: 18px;
@@ -446,7 +461,7 @@ hr{
 	display: flex;
 	gap: 30px;
 	justify-content: center;
-	padding: 2em;
+	padding: 2em; 
 	width: Fill(335px);
 	height: Hug(42px);
 }
@@ -473,3 +488,161 @@ hr{
 	font-size: 18px;
 	color: #595959;
 }
+@media only screen and (min-width: 1025px) {
+	.desktop {
+        grid-template-columns: repeat(3, 1fr); 
+        margin-left: 50px;
+		margin-top: 80px;
+    }
+    .nav-bar {
+        justify-content: space-between;
+        margin: 30px 60px 0px 60px;
+    }
+    .nav-bar h3 {
+        font-size: 28px;
+    }
+    .nav-bar img {
+        font-size: 172px;
+        line-height: 154px;
+    }
+    .travel-selfies img {
+        max-width: 800px;
+		margin-bottom: 550px;
+		margin-left: 235px;
+    }
+	.blurry{
+		transform: translate(55%);
+	}
+    .elipse {
+        margin-top: 80px;
+    }
+	.selfies{
+		margin-bottom: 55px;
+	}
+	.header-text{
+		font-size: 172px;
+		line-height: 154px;
+		margin-top: 30px;
+	}
+	.destination h2 {
+		font-size: 72px;
+		line-height: 84px;
+		transform: translateX(28%);
+		margin-top: -95px;
+		margin-left: -50px;
+		width: 1100px;
+	}
+     .choose {
+        width: 1100px;
+        font-size: 22px;
+		line-height: 24px;
+        margin-top: 20px;
+		margin-left: 110px;
+		text-align: center;
+    }
+    .choose-us h3 {
+		margin-top: 150px;
+        font-size: 72px;
+    }
+    .choose-us p {
+        margin-top: 60px;
+        font-size: 18px;
+		width: 879px;
+		margin-left: 190px;
+		line-height: 38px;
+    }
+    .listcard {
+        height:400px;
+		width: 1200px;
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 28px;
+		padding: 40px 32px 48px 32px;
+		margin-top: 20px;
+		margin-left: 20px;
+    }
+    .trip-text h2 {
+        font-size: 72px;
+        width: 534px;
+        line-height: 74px;
+		margin-bottom: -30px;
+	}
+    .trip-text p {
+		font-size: 18px;
+        margin-top: 70px;
+    }
+    .trip-image {
+        transform: translateX(200%);
+        margin-top: -300px;
+	}
+    .trip-image img {
+       max-width: 150%;
+	   height: 400px;
+    }
+	.image-shape{
+		width: 422px;
+		height: 239px;
+		top: 46px;
+		left: 68px;
+		opacity: 70%;
+	}
+	.memory-image{
+		width:658px ;
+		height:485px ;
+		margin-bottom:-107px ;
+		margin-left: 10px;
+	}
+	.trip-documentation h2{
+		width: 680px;
+		height: 168px;
+		font-size: 72px;
+		line-height: 84px;
+		align-items: center;
+		transform: translateY(90%);
+	}
+	.trip-documentation video{
+		width: 1440px;
+		height: 600px;
+		transform: translateY(40%);
+		transform: translateX(-18%);
+		margin-top: 180px;
+		margin-left: 175px;
+		gap: 10px;
+	}
+	.best-offer h2{
+		font-size: 72px;
+		width: 743px;
+		height: 84px;
+		transform: translateY(90%);
+	}
+     .best-offer button{
+		transform: translateY(-90%);
+		transform: translateX(685%);
+		margin-bottom: 50px;
+	}
+	.footer-text h4{
+		font-size: 28px;
+		margin-top: 20px;
+	}
+	.footer-text p{
+		font-size: 18px;
+		line-height: 32px;
+		margin-top: 40px;
+	}
+	.contact-us {
+		margin-bottom: -50px;
+		width: 40px;
+		height: 40px;
+		border-radius: 100px;
+		justify-content: left;
+	}
+	.links{
+		font-size: 18px;
+		gap: 40px;
+		justify-content: right;
+	}
+}
+	
+    
+
+
+
